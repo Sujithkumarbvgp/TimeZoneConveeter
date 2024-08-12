@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1F1F1F;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.timezone-converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
